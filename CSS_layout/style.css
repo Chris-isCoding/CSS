@@ -57,6 +57,24 @@ a {
   height: 50vh;
 }
 
+/* GRID */
+
+.grid-wrapper {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.box > img {
+  width: 100%;
+}
+
+.box {
+  background-color: #444;
+  padding: 8rem;
+  margin: 1.2rem;
+}
+
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
